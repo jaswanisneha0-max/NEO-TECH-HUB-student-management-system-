@@ -1,4 +1,4 @@
-# Student Management System
+<img width="981" height="643" alt="image" src="https://github.com/user-attachments/assets/8ad68b17-5fe0-4564-8ccf-a333b82e88f1" /># Student Management System
 
 ## 📌 Project Description
 This is a PHP & MySQL based Student Management System developed as a college project.
@@ -31,4 +31,6 @@ Database file included as: database.sql
 
 ---
 
+
 ⭐ Developed by Sneha Jaswani
+
