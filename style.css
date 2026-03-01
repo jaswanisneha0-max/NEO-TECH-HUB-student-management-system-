@@ -1,0 +1,48 @@
+/* Main dropdown structure */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+nav ul li {
+  position: relative;
+}
+
+/* Dropdown hidden by default */
+nav ul li .submenu {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 10px 0;
+  border-radius: 5px;
+  min-width: 180px;
+  z-index: 999;
+}
+
+/* Show submenu on hover */
+nav ul li:hover > .submenu,
+nav ul li .submenu:hover {
+  display: block;
+}
+
+/* Dropdown item styling */
+nav ul li .submenu li {
+  padding: 8px 20px;
+  white-space: nowrap;
+}
+
+nav ul li .submenu li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul li .submenu li a:hover {
+  background-color: orange;
+  color: #fff;
+  border-radius: 4px;
+}

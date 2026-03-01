@@ -1,0 +1,82 @@
+/* General Section */
+.achievements-section {
+  padding: 70px 20px;
+  background: #f9f9f9;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Container */
+.achievements-container {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+/* Title */
+.achievements-title {
+  font-size: 38px;
+  font-weight: bold;
+  color: #ef4d27;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.achievements-title::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #ef4d27;
+  margin: 12px auto 0;
+  border-radius: 2px;
+}
+
+/* Paragraph */
+.achievements-text {
+  font-size: 18px;
+  color: #444;
+  line-height: 1.7;
+  max-width: 850px;
+  margin: auto;
+  text-align: justify;
+}
+
+/* Stats Container */
+.achievements-stats {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+/* Individual Card */
+.stat-card {
+  background: #fff;
+  padding: 35px 25px;
+  border-radius: 15px;
+  width: 220px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 20px rgba(0,0,0,0.15);
+}
+
+/* Numbers */
+.stat-card h3 {
+  color: #ef4d27;
+  font-size: 34px;
+  font-weight: bold;
+  margin: 0 0 8px;
+}
+
+/* Text under numbers */
+.stat-card p {
+  color: #555;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
